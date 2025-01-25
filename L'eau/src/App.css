@@ -1,0 +1,28 @@
+
+.bg video{
+  position: absolute;
+  z-index: -100;
+  transform: translate(-40%, -50%)
+}
+.bg{
+  position: relative;
+  height: 100vw;
+  width: 100%;
+  overflow:hidden;
+}
+
+#titre {
+
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   font-family: 'Kaisei Poti';
+   font-size: 30px;
+   flex-wrap: wrap;
+
+}
+
+#MadeuxiemeDiv{
+display:flex;
+flex-direction:row;
+}
