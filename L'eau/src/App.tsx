@@ -1,6 +1,7 @@
 
 import './App.css'
 import videobg from './assets/Ocean 4K Vidéo.mp4'
+import fleche from './assets/fleche.png'
 
 function App() {
   return (
@@ -10,17 +11,16 @@ function App() {
       
           <div id='titre'> 
           <h1>Tapery Oil</h1>
-          <h2>Depuis 1991</h2>
+          <h3>Depuis 1991</h3>
+
+          <img src={fleche}/>
+        
 
           </div>
          
 
     </div>
   </div>
-
-
-    
-
 
   )
 }
