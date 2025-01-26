@@ -7,7 +7,7 @@ function App() {
   return (
     <div> 
       <div class='bg'>
-        <video src={videobg} autoPlay="autoplay" loop="infinite"></video>
+        <video src={videobg} autoPlay="autoplay" loop="infinite" muted></video>
       
           <div id='titre'> 
           <h1>Tapery Oil</h1>
