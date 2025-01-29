@@ -4,7 +4,7 @@ body{
   margin:0
 }
 .bg video{
-  position: absolute;
+  position: fixed;
   z-index: -100;
   width: 100%;
 }
@@ -26,9 +26,10 @@ body{
    flex-wrap: wrap;
    color: white;
    flex-direction:column;
+   height: 100hv;
 }
 
-#titre img {
+#titre img{
   width: 45px;
 }
 
@@ -36,15 +37,45 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Kaisei Opti';
+  justify-content:center;
+  align-items: flex-start;
 }
 
 #titre h3 {
   margin: 0;
   padding: 0;
   font-family: 'Gayathri';
+  justify-content:center;
+  align-items: flex-start;
+  font-size: 40px;
 }
 
-#MadeuxiemeDiv{
-display:flex;
-flex-direction:row;
+
+#pict {
+  padding: 5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+
+}
+h1 {
+  display:flex;
+  font-family: 'Kaisei Opti';
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 96px;
+}
+#pict img {
+  border-radius: 30px;
+  width: 400px;
+  height: 420px;
+}
+.Laboss{
+  display: flex;
+  flex-direction: column;
+
+}
+#pict:nth-of-type(2){
+    align-items: baseline;
 }
