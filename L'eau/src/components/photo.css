@@ -3,5 +3,7 @@ h2 {
     align-items: center;
 }
 p{
-    justify-content: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
