@@ -5,8 +5,7 @@ function Photo({Titre,Image}:{Titre:string,Image:string})
 	return(
 		<div>
 			<h2>{Titre}</h2>
-			<p>{Image}</p>
-
+			<img src={Image}></img>
 		</div>
 	)
 }

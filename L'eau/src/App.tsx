@@ -22,18 +22,14 @@ function App() {
 
            <img src={fleche}/>
            </div>
-
            <h1>For Ecology</h1>
            <div id='pict'>
 
-           
-
-           <Photo Titre='Meet our team' Image={<img src={biolo}></img>}> </Photo>
-            <Photo Titre='Donate for help' Image={<img src={loutre}></img>}> </Photo>
-            <Photo Titre='Participate' Image={<img src={poub}></img>}> </Photo>
+           <Photo Titre='Meet our team' Image={biolo}/>
+            <Photo Titre='Donate for help' Image={loutre}/> 
+            <Photo Titre='Participate' Image={poub}/>
             </div>
         </div>
-
 
         </div>
 

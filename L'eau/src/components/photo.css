@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&family=Kaisei+Opti&display=swap');
+
 h2 {
+  position: relative;
     color: white;
-    align-items: center;
+    font-family:'Kaisei Opti';
+    font-size: 32px;
+    left: 99px;
+    top: 150px;
+    z-index: 20;
 }
-p{
-    display: flex;
-  justify-content: center;
-  align-items: center;
+img{
+  object-fit: cover;
+
 }

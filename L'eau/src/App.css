@@ -25,7 +25,7 @@ body{
    flex-wrap: wrap;
    color: white;
    flex-direction:column;
-   height: 100hv;
+   height: 100vh;
 }
 
 #titre img{
@@ -51,13 +51,13 @@ body{
 
 
 #pict {
-  padding: 5em;
+  margin: 5em;
   display: flex;
   justify-content: space-evenly;
-  align-items: end;
-
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-h1 {
+#titre h1{
   display:flex;
   font-family: 'Kaisei Opti';
   justify-content: center;
@@ -65,23 +65,36 @@ h1 {
   color: white;
   font-size: 96px;
 }
-#pict img {
-  border-radius: 30px;
-  width: 400px;
-  height: 420px;
-}
-#pict p{
-  display: flex;
+ h1{
+  display:flex;
+  font-family: 'Kaisei Opti';
+  color: white;
   justify-content: center;
   align-items: center;
+  font-size: 96px;
+  top: 50px;
 
+}
+#pict img{
+  border-radius: 30px;
+  width: 378px;
+  height: 727px;
+  margin: 1em;
 }
 .Laboss{
   position: relative;
   display: flex;
   flex-direction: column;
+}
+#titre img{
+    margin: 3em;
+}
 
+#pict *:nth-child(2){
+  position:sticky;
+  display: grid;
+  z-index: 1;
+  bottom: 50px;
 }
-#pict:nth-of-type(2){
-    align-items: baseline;
-}
+
+
